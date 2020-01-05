@@ -3,7 +3,7 @@
 
     //line chart
     var ctx = document.getElementById( "pnl-return-chart" );
-    ctx.height = 150;
+    ctx.height = 140;
     var myChart = new Chart( ctx, {
         type: 'line',
         data: {
@@ -11,19 +11,20 @@
             datasets: [
                 {
                     label: "Return",
-                    yAxesID: "Return",
-                    borderColor: "rgba(0,0,0,.09)",
+                    yAxisID: "Return",
+                    borderColor: "rgba(0, 194, 146, 0.9)",
                     borderWidth: "1",
-                    backgroundColor: "rgba(0,0,0,.07)",
+                    backgroundColor: "rgba(0, 194, 146, 0.4)",
+                    pointHighlightStroke: "rgba(26,179,148,1)",
                     data: [ 20, 47, 35, 43, 65, 45, 35 ]
                             },
                 {
                     label: "Pnl",
-                    yAxesID: "Pnl",
-                    borderColor: "rgba(0, 194, 146, 0.9)",
+                    yAxisID: "Pnl",
+                    borderColor: "rgba(119,136,153, 0.9)",
                     borderWidth: "1",
-                    backgroundColor: "rgba(0, 194, 146, 0.5)",
-                    pointHighlightStroke: "rgba(26,179,148,1)",
+                    backgroundColor: "rgba(119,136,153, 0.5)",
+                    pointHighlightStroke: "rgba(119,136,153, 1)",
                     data: [ 16, 32, 18, 27, 42, 33, 29 ]
                             }
                         ]
@@ -59,13 +60,14 @@
                        display: true,
                        labelString: 'Return(%)',
                    }
-               }, {
+               },
+               {
                    id: 'Pnl',
                    type: 'linear',
                    position: 'right',
                    scaleLabel: {
                        display: true,
-                       labelString: 'Pnl($)',
+                       labelString: 'Pnl($million)',
                    }
                }
                ],
@@ -80,14 +82,14 @@
     var myChart = new Chart( ctx, {
         type: 'bar',
         data: {
-            labels: [ "s1", "s2", "s3", "s4"],
+            labels: [ 'Energy','Financials','Health Care','Industrials'],
             datasets: [
                 {
-                    label: "My First dataset",
-                    data: [ 55, 50, 75, 80],
-                    borderColor: "rgba(255, 165, 0, 0.9)",
+                    label: "Sector Contribution",
+                    data: [ 3.5, 8.75, 13, 9.75],
+                    borderColor: "rgba(0, 194, 146, 0.9)",
                     borderWidth: "0",
-                    backgroundColor: "rgba(255, 165, 0, 0.5)"
+                    backgroundColor: "rgba(0, 194, 146, 0.4)"
                             }
                         ]
         },
@@ -112,24 +114,20 @@
                 data: [ 45, 25, 20, 10 ],
                 backgroundColor: [
                                     "rgba(255,0,0,0.6)",
-                                    "rgba(232,23,19,0.6)",
-                                    "rgba(185,70,56,0.6)",
-                                    "rgba(162,93,74,0.6)"
+                                    "rgba(255,215,0,0.6)",
+                                    "rgba(0,191,255,0.6)",
+                                    "rgba(60,179,133,0.6)"
                                 ],
                 hoverBackgroundColor: [
                                     "rgba(255,0,0,0.6)",
-                                    "rgba(232,23,19,0.6)",
-                                    "rgba(185,70,56,0.6)",
-                                    "rgba(162,93,74,0.6)"
+                                    "rgba(255,215,0,0.6)",
+                                    "rgba(0,191,255,0.6)",
+                                    "rgba(60,179,133,0.6)"
                                 ]
 
                             } ],
-            labels: [
-                            "s1",
-                            "s2",
-                            "s3",
-                            "s4"
-                        ]
+            labels: [ 'Energy','Financials','Health Care','Industrials']
+
         },
         options: {
             responsive: true
