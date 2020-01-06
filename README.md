@@ -15,17 +15,25 @@ Python 3
 
 ### Portfolio Analysis and Risk Management
 The related operations are conducted in the page 'portfolio'.
+![portfolio](https://github.com/yying2016/investment/blob/master/portfolio/static/images/home_page.PNG)
 
 1. Fill in the form 'Portfolio Selection' and press 'Submit'.
 2. Check pnl and return
+![portfolio](https://github.com/yying2016/investment/blob/master/portfolio/static/images/widgets_return.png)
+![portfolio](https://github.com/yying2016/investment/blob/master/portfolio/static/images/pnl_return_chart.PNG)
 3. Check factor exposures and contributions.
+![portfolio](https://github.com/yying2016/investment/blob/master/portfolio/static/images/widgets_stocks_sectors.png)
+![portfolio](https://github.com/yying2016/investment/blob/master/portfolio/static/images/factor-exposure-contribution.PNG)
 4. Check risk.
+![portfolio](https://github.com/yying2016/investment/blob/master/portfolio/static/images/widgets_risk.png)
 
 
 ### Submit Portfolio
+Please wait
 ### Account Management
+Please wait
 ### MARKET Analysis
-
+Please wait
 
 ## Contributing
 
