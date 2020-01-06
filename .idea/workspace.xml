@@ -2,77 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a6ab478-b092-474e-a581-ba35c917dce1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/portfolio/analysis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/analysis/portfolio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/analysis/riskmodel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/static/assets/js/init/home-chartjs-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/static/assets/js/init/home-chartjs-init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/css/cs-skin-elastic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/css/lib/chosen/chosen-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/css/lib/chosen/chosen-sprite@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/css/lib/chosen/chosen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/css/lib/chosen/chosen.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/css/lib/datatable/buttons.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/css/lib/datatable/buttons.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/css/lib/datatable/dataTables.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/css/lib/vector-map/jqvmap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/fonts/icomoon/icomoon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/fonts/icomoon/icomoon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/fonts/icomoon/icomoon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/fonts/icomoon/icomoon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/fonts/icomoon/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/dashboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/init/chartjs-init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/init/datatables-init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/init/flot-chart-init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/init/fullcalendar-init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/init/gmap-init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/init/peitychart-init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/init/vector-init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/init/weather-init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/chosen/chosen.jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/chosen/chosen.jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/chosen/chosen.proto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/chosen/chosen.proto.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/data-table/buttons.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/data-table/buttons.colVis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/data-table/buttons.flash.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/data-table/buttons.html5.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/data-table/buttons.print.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/data-table/dataTables.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/data-table/dataTables.buttons.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/data-table/datatables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/data-table/jquery-1.12.4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/data-table/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/data-table/jszip.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/data-table/pdfmake.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/data-table/vfs_fonts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/gmap/gmapApi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/gmap/gmaps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/lib/gmap/gmaps.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/vmap.sampledata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/js/widgets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/scss/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/scss/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/assets/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/images/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/images/admin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/images/avatar/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/images/avatar/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/images/avatar/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/images/avatar/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/images/avatar/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/images/avatar/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/images/avatar/64-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/images/avatar/64-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/images/logo.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/images/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/analysis/portfolio.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/analysis/portfolio.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

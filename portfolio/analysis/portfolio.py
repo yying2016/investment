@@ -1,5 +1,6 @@
 import pandas as pd
 from riskmodel import SimpleRiskModel
+import datetime
 
 
 class Portfolio:
@@ -42,7 +43,7 @@ class Portfolio:
         return factor_exposure
 
     def load_weight(self):
-        weight = pd.read_csv("./weight/{}.csv".format(self.name), index=False)
+        weight = pd.read_csv("./weight/{}.csv".format(self.name))
         return weight
 
 
